@@ -1,0 +1,23 @@
+[package]
+name = "mib_parser"
+version = "0.1.0"
+authors = ["Andy Philpotts <andy@failfree.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.1"
+regex = "1.0"
+pest = "2.0"
+pest_derive = "2.0"
+pest_consume = "1.0"
+indextree = "4.0"
+walkdir = "2"
+log = "0.4.0"
+env_logger = "0.7.1"
+itertools = "0.9"
+serde_yaml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+
+
